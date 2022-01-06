@@ -4,12 +4,12 @@
   <system-out><![CDATA[
 1 Scenarios (?[32m1 passed?[0m)
 3 Steps (?[32m3 passed?[0m)
-0m14,591s
+0m23,412s
 
 
 ]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/USUARIO/Documents/Ejercicios/demoQA-automation/src/test/resources/features/elementTextBox.feature
-[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/USUARIO/Documents/Ejercicios/demoQA-automation/src/test/resources/features/elementTextBox.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/USUARIO/Documents/Ejercicios/demoQA-automation/src/test/resources/features/elements.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/USUARIO/Documents/Ejercicios/demoQA-automation/src/test/resources/features/elements.feature is not under the 'features' directory. Requirements report will not be correctly generated!
 [Test worker] INFO  - ?[96m
 
 -------------------------------------------------------------------------------------
@@ -26,15 +26,18 @@
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
 -------------------------------------------------------------------------------------
 ?[0m
-[Test worker] INFO  - Test Suite Started: automation test demoQA
-[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5a6bf383: Generating report for test outcome: automation test demoQA:Scenario: element textbox automation
-[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@65e5f11d: Generating report for test outcome: automation test demoQA:Scenario: element textbox automation
+[Test worker] INFO  - Test Suite Started: elements automation test demoQA
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/USUARIO/Documents/Ejercicios/demoQA-automation/src/test/resources/features/forms.feature
+[Test worker] WARN io.cucumber.core.plugin.SerenityReporter - Feature from file:///C:/Users/USUARIO/Documents/Ejercicios/demoQA-automation/src/test/resources/features/forms.feature is not under the 'features' directory. Requirements report will not be correctly generated!
+[Test worker] INFO  - Test Suite Started: forms automation test demoQA
+[pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@724e13a8: Generating report for test outcome: forms automation test demoQA:Scenario: Practice Form
+[pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@1d045e3e: Generating report for test outcome: forms automation test demoQA:Scenario: Practice Form
 [pool-2-thread-1] INFO serenity.reporting - 
----------------------------------------------------
-| TEST NAME:   ?[1mScenario: element textbox automation?[0m
+--------------------------------------
+| TEST NAME:   ?[1mScenario: Practice Form?[0m
 | RESULT:      ?[92mPassing?[0m
-| REQUIREMENT: automation test demoQA
-| REPORT:      ?[96mfile:///C:/Users/USUARIO/Documents/Ejercicios/demoQA-automation/target/site/serenity/7a4f67f2cf4ec51d499e13b7a813d986b0e1e084377b62031a2d60bfb0c4925c.html?[0m
----------------------------------------------------
+| REQUIREMENT: forms automation test demoQA
+| REPORT:      ?[96mfile:///C:/Users/USUARIO/Documents/Ejercicios/demoQA-automation/target/site/serenity/30a224c052217bdc250c3e72acccbe6db757e8efeb093b9f957b3c9ceec3bad2.html?[0m
+--------------------------------------
 ]]></system-err>
 </testsuite>

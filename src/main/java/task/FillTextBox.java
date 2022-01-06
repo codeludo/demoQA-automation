@@ -10,7 +10,7 @@ import net.serenitybdd.screenplay.actions.Scroll;
 import java.util.Map;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import static userInterfaces.TextBoxUserInteractions.*;
+import static ui.TextBoxUI.*;
 
 @AllArgsConstructor
 public class FillTextBox implements Task {
